@@ -3,10 +3,10 @@ library(tidyverse)
 library(incidence2)
 
 # Read data
-ebola_dat <- read_rds("outputs/linelist_clean.rds")
+ebola_dat <- readr::read_rds("outputs/linelist_clean.rds")
 
 # Create incidence2 object
-ebola_onset <- 
+ebola_onset <-
   incidence2::incidence(
     x = ebola_dat,
     date_index = c("date_of_onset"),
@@ -20,4 +20,4 @@ ebola_onset
 plot(ebola_onset)
 
 # Write ggplot as figure
-ggsave("figures/02-plot_incidence.png",height = 3,width = 5)
+ggsave("figures/02-plot_incidence.png", height = 3, width = 5)
