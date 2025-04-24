@@ -1,0 +1,25 @@
+# --------------------------------------------
+# CITATION file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# --------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "casosprueba11" in publications use:'
+type: software
+license: GPL-2.0-or-later
+title: 'casosprueba11: My Reproducible Proyect Testing'
+version: 0.0.0.9000
+abstract: A paragraph providing a full description of the project (on several lines...)
+authors:
+- family-names: Valle-Campos
+  given-names: Andree
+  email: avallecam@gmail.com
+  orcid: https://orcid.org/0000-0002-7779-481X
+repository-code: https://github.com/avallecam/casosprueba11
+url: https://github.com/avallecam/casosprueba11
+contact:
+- family-names: Valle-Campos
+  given-names: Andree
+  email: avallecam@gmail.com
+  orcid: https://orcid.org/0000-0002-7779-481X
+
