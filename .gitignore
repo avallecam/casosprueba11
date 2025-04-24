@@ -23,3 +23,8 @@ man/
 NAMESPACE
 renv/
 .Rprofile
+
+# omitir data cruda
+data/*.csv
+# omitir archivos regenerables
+figures/*.png

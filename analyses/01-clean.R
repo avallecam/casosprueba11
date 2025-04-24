@@ -3,7 +3,7 @@ library(readxl)
 library(tidyverse)
 
 # Read raw data
-dat <- readxl::read_xlsx("data/linelist_20140701.xlsx")
+dat <- readxl::read_xlsx("https://github.com/reconhub/learn/raw/master/static/data/linelist_20140701.xlsx")
 
 # Clean raw data
 dat_clean <- dat %>% 
