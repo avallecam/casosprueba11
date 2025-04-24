@@ -113,9 +113,22 @@ source("make.R")
 
 ## Citation
 
-Please use the following citation: 
+See [CITATION.cff](CITATION.cff) for citation information, including a list of authors.
+([Read more about the Citation File Format and how to use it](https://citation-file-format.github.io/).)
 
-> **{{ ADD A CITATION }}**
+To cite these tutorials in publications use:
+
+```{r, eval=TRUE, echo=FALSE, comment=""}
+cffr::as_bibentry(x = "CITATION.cff")
+```
+
+A BibTeX entry for LaTeX users is:
+
+```{r, eval=TRUE, echo=FALSE, comment=""}
+utils::toBibtex(cffr::as_bibentry(x = "CITATION.cff"))
+```
+
+
 
 
 
